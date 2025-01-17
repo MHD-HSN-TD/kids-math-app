@@ -30,10 +30,10 @@ const Dictaphone = () => {
                 onClick={startVoiceRecognition}>Start</Button>
             <Button
                 variant="contained"
-                color="success" onClick={SpeechRecognition.stopListening}>Stop</Button>
+                color="error" onClick={SpeechRecognition.stopListening}>Stop</Button>
             {/* <Button variant="contained">Hello world</Button> */}
             <Button variant="contained"
-                color="info" onClick={resetTranscript}>Reset</Button>
+                color="warning" onClick={resetTranscript}>Reset</Button>
             <p>{transcript}</p>
         </div>
     );
