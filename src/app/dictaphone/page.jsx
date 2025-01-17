@@ -25,10 +25,15 @@ const Dictaphone = () => {
     return (
         <div className='mx-auto'>
             <p>Microphone: {listening ? 'on' : 'off'}</p>
-            <button className='btn ' onClick={startVoiceRecognition}>Start</button>
-            <button className='btn ' onClick={SpeechRecognition.stopListening}>Stop</button>
-            <Button variant="contained">Hello world</Button>
-            <button className='btn ' onClick={resetTranscript}>Reset</button>
+            <Button variant="contained"
+                color="success"
+                onClick={startVoiceRecognition}>Start</Button>
+            <Button
+                variant="contained"
+                color="success" onClick={SpeechRecognition.stopListening}>Stop</Button>
+            {/* <Button variant="contained">Hello world</Button> */}
+            <Button variant="contained"
+                color="info" onClick={resetTranscript}>Reset</Button>
             <p>{transcript}</p>
         </div>
     );
