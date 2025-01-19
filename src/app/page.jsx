@@ -16,7 +16,7 @@ export default function Home() {
   // console.log(questions, "questions")
   return (
     <>
-      <div div className="flex  gap-8  items-center sm:items-start" >
+      <div className="flex  gap-8  items-center sm:items-start" >
         {/* {data.map(e => <div key={e.sessionNumber} className="">
           <Link href={e.href}>
             {e.text}

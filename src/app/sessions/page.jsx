@@ -7,7 +7,7 @@ const page = () => {
         <div>
 
             <div>This is a sessions Page</div>
-            <div div className="flex flex-col gap-8  items-center sm:items-start" >
+            <div className="flex flex-col gap-8  items-center sm:items-start" >
                 {data.map(e => <div key={e.sessionNumber} className="">
                     <Link href={`sessions/${e.href}`}>
                         {e.text}
