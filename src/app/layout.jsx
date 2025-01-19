@@ -18,7 +18,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="ar" dir="RTL">
       <head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
 
